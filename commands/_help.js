@@ -19,16 +19,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
+   * @project_name : praveen-md
+   * @author : praveen
    * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
    * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
-   * @version 1.0.1
+   * @version 1.0.0
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By praveen.
+   * © 2023 praveen-md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -116,12 +116,12 @@ async(Suhail, citel) => {
               const { commands } = require('../lib');
               let str = `
   ╭━━〘 *${Config.botname}* 〙────⊷     
-  ┃ ✭ Theme: ${tlang().title}
+  ┃ ✭ Theme👻: ${tlang().title}
   ┃ ✭ Prefix: ${prefix}
-  ┃ ✭ Owner: ${Config.ownername}
-  ┃ ✭ Commands: ${commands.length}
-  ┃ ✭ Uptime: ${runtime(process.uptime())}
-  ┃ ✭ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+  ┃ ✭ Owner👻: ${Config.ownername}
+  ┃ ✭ Commands👻: ${commands.length}
+  ┃ ✭ Uptime👻: ${runtime(process.uptime())}
+  ┃ ✭ Mem👻: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
   ╰━━━━━━━━━━━━━━⊷\n`
   
               for (let i = 0; i < commands.length; i++) 
