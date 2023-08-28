@@ -1,6 +1,6 @@
 {
-  "name": "Suhail-Md By Suhail Tech Info",
-  "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
+  "name": "PRAVEEN",
+  "description": "A Whatsapp bot BY PRAVEEN",
   "logo": "https://i.imgur.com/NpA3ZsJ.jpeg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md Wa bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/",
@@ -8,11 +8,11 @@
 "env": {
   "OWNER_NAME": {
     "description": "Name of Bot Owner",    
-    "value": "Suhail Tech Info"
+    "value": "praveen"
   },
   "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",
-    "value": "",
+    "value": "c87c0846-3138-485b-a8c4-8096ad060767",
 	  "required" :true 
   },
   "HEROKU_APP_NAME": {
@@ -56,7 +56,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "923184474176"
+    "value": "94753894510"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
@@ -68,11 +68,11 @@
   },
   "MONGODB_URI": {
     "description": "Replace it, If you have your own Mongodb key. Its a secret String for Mongodb Connection.(Required)",
-    "value": ""
+    "value": "mongodb://mongo:0tvHw7Gnzpo5vs3AloKg@containers-us-west-168.railway.app:7651"
   },
   "MODE": {
     "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-    "value": "private"
+    "value": "public"
   },
   "AUTO_REACTION": {
     "description": " Set it `true` If You Wants To Reacts emoji to all commands. \n And Set it `all` is You Wants to React Emojies to All Messages",
@@ -81,12 +81,12 @@
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-    "value": "",
+    "value": "pn",
     "required": false 
   },
   "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
-    "value": "",
+    "value": "ra",
     "required": false 
   }
 },
